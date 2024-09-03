@@ -9,8 +9,8 @@ if(isset($_POST['submitcontact']))
 	$email=$_POST['email'];
 	$message=$_POST['message'];
 
-	$to = "youremail@gmail.com";
-	$subject = "Zerotheme - Testing Contact Form";
+	$to = "andrew.sipes@outlook.com";
+	$subject = "Game Development Inquiry";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
 	$from = "Zerotheme.com";
