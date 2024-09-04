@@ -650,9 +650,22 @@ figure.snip1321.hover:after {
 
 /* Contact Me */
 
+.email-link {
+    color: rgba(0, 238, 255, 0.726); /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+
 section.contact-me {
     border-bottom: none;
 }
+
+.phone-link {
+    color: rgba(0, 238, 255, 0.726); /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
 
 #contact input {
     background-color: rgba(250,250,250,0.1);
