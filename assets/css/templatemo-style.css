@@ -283,6 +283,12 @@ html {
 
 /* Section */
 
+.styled-link {
+    color: rgba(0, 238, 255, 0.726); /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
 .section {
     color: #fff;
     width: 55%;
@@ -296,7 +302,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 30px 45px;
 }
 
 .section-heading h2 {
@@ -397,6 +403,11 @@ button:hover {
     padding-right: 5px;
 }
 
+.my-services .col-md-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .service-item {
     margin-bottom: 10px;
     padding: 50px;
@@ -425,14 +436,15 @@ button:hover {
 }
 
 .service-item .service-icon {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     display: inline-block;
     margin-bottom: 30px;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
+
 
 .service-item .first-service-icon {
     background-image: url(../images/unrealwhite.png);
@@ -451,12 +463,18 @@ button:hover {
 }
 
 .service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
+    background-image: url(../images/openglwhite.png);
+    height: 120px;
+    width: 160px; /* Adjusted width */
 }
 
 .service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
+    background-image: url(../images/openglblue.png);
+    height: 120px;
+    width: 160px; /* Adjusted width */
+    padding: 55px
 }
+
 
 .service-item .fourth-service-icon {
     background-image: url(../images/fourth-white-icon.png);
