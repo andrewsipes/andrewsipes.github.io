@@ -475,16 +475,6 @@ button:hover {
     padding: 55px
 }
 
-
-.service-item .fourth-service-icon {
-    background-image: url(../images/fourth-white-icon.png);
-}
-
-.service-item:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
-}
-
-
 /* My Work */
 
 section.my-work .section-heading {
