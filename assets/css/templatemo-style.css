@@ -475,6 +475,24 @@ button:hover {
     padding: 55px
 }
 
+.workcontainer {
+    text-align: center;
+  }
+  
+  .workcontainer img {
+    max-width: 100%;
+    max-height: 200px; /* Adjust as needed */
+    max-width: 400px;
+  }
+
+  .work-link {
+    color: rgba(0, 238, 255, 0.726); /* Text color */
+    font-size: 20px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+
+
 /* My Work */
 
 section.my-work .section-heading {
